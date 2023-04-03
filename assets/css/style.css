@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #f7f7f7;
+}
+
+.header {
+  padding: 50px;
+  background-color: rgb(49, 48, 48);
+  color: lightskyblue;
+}
+
+.header h1 {
+  display: inline;
+  font-size: 48px;
+  background-color: lightskyblue;
+  padding: 15px;
+  color: rgb(49, 48, 48);
+  border-radius: 20px;
+}
+
+.header nav {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-size: 25px;
+}
+
+.header nav ul li {
+  display: inline-block;
+  margin-left: 25px;
+  text-decoration: underline;
+}
