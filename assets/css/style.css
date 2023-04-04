@@ -15,14 +15,14 @@ body {
   background-color: var(--lightBackground);
 }
 
-.header {
+.main-header {
   padding: 50px;
   background-color: var(--darkColor);
   color: var(--lightPurple);
   border-bottom: 5px solid var(--lightPurple);
 }
 
-.header h1 {
+.main-header h1 {
   display: inline;
   font-size: 48px;
   background-color: var(--lightPurple);
@@ -32,34 +32,30 @@ body {
   border: 2px solid var(--lightBackground);
 }
 
-.header nav {
+.main-header nav {
   padding-top: 15px;
   margin-right: 20px;
   float: right;
   font-size: 25px;
 }
 
-.header nav ul li {
+.main-header nav ul li {
   display: inline-block;
   margin-left: 25px;
   text-decoration: underline;
 }
 
-.aboutMe figure img {
-  border: 2px solid var(--darkColor);
-  border-radius: 150px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.aboutMe {
+  padding: 15px;
 }
 
-h2 {
+.header {
   font-size: 50px;
   text-align: center;
   padding: 15px;
 }
 
-p {
+.aboutMe p {
   text-align: center;
   border: 5px solid var(--darkColor);
   border-style: solid none;
@@ -74,4 +70,17 @@ p {
   font-size: 25px;
   text-align: center;
   padding: 50px;
+}
+
+.selfie {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid var(--darkColor);
+  border-radius: 150px;
+}
+
+.project {
+  display: block;
+  align-items: center;
 }
