@@ -6,6 +6,7 @@
 }
 
 * {
+  scroll-behavior: smooth;
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -30,10 +31,11 @@ body {
   padding: 15px;
   color: var(--darkColor);
   border-radius: 20px;
-  border: 2px solid var(--lightBackground);
+  border: 3px solid var(--lightBackground);
 }
 
 .main-header nav {
+  text-decoration: none;
   padding-top: 15px;
   margin-right: 20px;
   float: right;
@@ -44,6 +46,10 @@ body {
   display: inline-block;
   margin-left: 25px;
   text-decoration: underline;
+  border: 3px solid;
+  padding: 15px;
+  background-color: var(--lightBackground);
+  border-radius: 20px;
 }
 
 .aboutMe {
@@ -58,12 +64,7 @@ body {
 
 .aboutMe p {
   text-align: center;
-  border: 5px solid var(--darkColor);
-  border-style: solid none;
   font-size: 25px;
-  margin: 50px;
-  padding: 50px;
-  border-radius: 20px;
 }
 
 .contactMe ul li {
@@ -88,7 +89,14 @@ body {
 
 .card {
   position: relative;
+}
 
+.card, .paragraph {
+  border: 5px solid var(--darkColor);
+  border-style: solid none;
+  margin: 50px;
+  padding: 50px;
+  border-radius: 50px;
 }
 
 .mainImg {
@@ -104,7 +112,7 @@ body {
   position: absolute;
   color: var(--whiteText);
   padding: 10px 20px 10px 10px;
-  margin-left: 59%;
+  margin-left: 56.7%;
   background-color: var(--lightPurple);
 }
 
@@ -125,17 +133,33 @@ body {
   background-color: var(--lightPurple);
   color: var(--whiteText);
   padding: 5px 5px 5px 5px;
-  margin-top: 16.5%;
+  margin-top: 17.2%;
 }
 
 .smallTextBlock1 {
-  margin-left: 23.55%;
+  margin-left: 24.7%;
 }
 
 .smallTextBlock2 {
-  margin-left: 49.25%;
+  margin-left: 48.85%;
 }
 
 .smallTextBlock3 {
-  margin-left: 74.95%;
+  margin-left: 73.05%;
+}
+
+.contactMe ul {
+  text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 576px) {
+
 }
