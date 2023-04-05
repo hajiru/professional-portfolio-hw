@@ -154,12 +154,7 @@ body {
 }
 
 @media screen and (max-width: 576px) {
-  .smallImg {
-    width: 250px;
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .mainImg {
+  .smallImg, .mainImg {
     width: 250px;
     display: flex;
     flex-wrap: wrap;
