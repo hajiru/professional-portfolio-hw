@@ -15,6 +15,8 @@ N/A
 
 To navigate my portfolio, use the navigation bar at the top right to bring you to differenct sections of my portfolio.
 
+https://hajiru.github.io/professional-portfolio-hw/
+
 ![My portfolio](assets/images/deployed-page.png)
 
 ## License
